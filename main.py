@@ -14,7 +14,7 @@ tree = bot.tree
 @bot.event
 async def on_ready():
     await tree.sync()
-        print(f"✅ Bot online: {bot.user}")
+    print(f"✅ Bot online: {bot.user}")
 
         @tree.command(name="guild_add")
         async def guild_add(interaction: discord.Interaction, name: str):

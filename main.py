@@ -50,5 +50,5 @@ async def player_info(interaction: discord.Interaction, player: str):
     else:
         await interaction.response.send_message("❌ Player not found")
 
-keep_alive()
+
 bot.run(TOKEN)
